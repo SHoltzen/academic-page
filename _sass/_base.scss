@@ -202,3 +202,24 @@ pre {
         }
     }
 }
+
+.left-col {
+    float: left;
+    width: 50%;
+}
+
+.right-col {
+    float: right;
+    width: 45%;
+    padding-left: 5%;
+}
+
+.full-width {
+    width: $content-width;
+    clear: both;
+}
+
+.small-text {
+    font-size: $small-font-size;
+}
+

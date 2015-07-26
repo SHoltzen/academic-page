@@ -3,21 +3,20 @@ layout: default
 ---
 
 <div class="home">
+  <div class="left-col">
+    <img src="/assets/profile.jpg"/>
+  </div>
+  <div class="right-col">
+    Master's Degree Student<br/>
+    University of California, Los Angeles<br/>
+    Department of Computer Science<br/>
+    <br/>
+    <span class="small-text">
+      I am a first-year Master's student at UCLA and member of <a href="http://www.sandia.gov/careers/special_programs/critical_skills_program.html">Sandia's Critical Skills Master's Program</a>. I am interested in machine learning with applications in computer vision and computer security, in particular the areas of plan and goal inference.
+    </span>
+  </div>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <!--<div style="padding-top: 15px" class="full-width">
+    <h1>News</h1>
+  </div>-->
 </div>
