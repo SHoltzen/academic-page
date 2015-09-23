@@ -2,7 +2,7 @@
 title: Steven Holtzen
 email: sholtzen@cs.ucla.edu
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "~sholtzen/" # the subpath of your site, e.g. /blog/
+baseurl: "/~sholtzen" # the subpath of your site, e.g. /blog/
 url: "http://cs.ucla.edu/~sholtzen/" # the base hostname & protocol for your site
 twitter_username: zengola
 github_username: sholtzen
