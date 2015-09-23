@@ -234,3 +234,58 @@
         }
     }
 }
+
+/** 
+ * Home Page
+ */
+.left-col {
+    float: left;
+    width: 50%;
+}
+
+.right-col {
+    float: right;
+    width: 45%;
+    padding-left: 5%;
+}
+
+.full-width {
+    width: $content-width;
+    clear: both;
+}
+
+.small-text {
+    font-size: $small-font-size;
+}
+
+
+
+/** 
+ * Publications 
+ */
+
+.publication:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.publication {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #eef;
+    padding: 5px;
+}
+
+.pub-left-col {
+    width: 20%;
+    float: left;
+}
+
+.pub-right-col {
+    width: 75%;
+    padding-left: 5%;
+    float: right;
+}
+
